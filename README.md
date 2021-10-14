@@ -1,8 +1,8 @@
 # Data_Analysis_Project
 
-## Prepare
-###Guiding questions
-● Where is your data located?  
+## Prepare   
+###Guiding questions   
+● Where is your data located?   
 The data is located at a [database](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Divvy  
 ● How is the data organized?  
 The data is organized sequentially by date order    
