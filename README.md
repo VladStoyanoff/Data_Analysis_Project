@@ -114,13 +114,13 @@ Trend Number 1: The number of rides for the annual members throughout the whole 
 
 The visuals to support this trend:
 
-![num_of_rides_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/num_of_rides_v.png)
+![num_of_rides_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Visuals/num_of_rides_v.png)
 
 Trend Number 2: The average duration of trip time in seconds for casual members is higher.  
 
 The visuals to support this trend:
 
-![avg_trip_time_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/avg_trip_time_v.png)
+![avg_trip_time_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Visuals/avg_trip_time_v.png)
 
 _Deliverable: A summary of my analysis_
 
