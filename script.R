@@ -182,7 +182,9 @@ all_trips_v2 %>%
   
   # STEP 5: EXPORT SUMMARY FILE FOR FURTHER ANALYSIS IF NEEDED
   
-  
+  counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+write.csv(counts, file = '~/Desktop/Divvy_Exercise/avg_ride_length.csv')
+
 
 
 
