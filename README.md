@@ -36,44 +36,44 @@ I am assuming there are no credibility or bias issues with the data, due to it b
 
 The data has been made available by Motivate International Inc. [under this license](https://www.divvybikes.com/data-license-agreement)   
 
-● How did you verify the data’s integrity?  
-
 ● How does it help you answer your question?  
 
-The dataset is helpful for answering the question because to be able to reach a data-driven decision I would need to know ---  
+The dataset holds all the information that the company is permitted to acquire from customers, so it's highly likely that what I would need is inside it. If it's not I would consult myself with the stakeholders and consider one of three options:  
+
+1. Wait until new data is collected  
+2. Create data with the available datasets  
+3. Use third-party data  
 
 ● Are there any problems with the data?  
 
----  
+There are problems with data such as being incosistent with one another, and some calculations which I need are not inside the data (e.g number of rides taken per customer type). Those problems are taken care of in the R script.  
 
 ● Determine the credibility of the data.  
 
-I assume that the data is credible due to it being recommended by Google and provided by Motivate International Inc. 
+I assume that the data is credible due to it being recommended by Google Data Analytics Professional Certificate course and provided by Motivate International Inc. 
 
 _Deliverable: A description of all data sources used  
 
-**The data used is contained in the following zip files:  
+**The data used is contained in the following zip files inside this [database](https://divvy-tripdata.s3.amazonaws.com/index.html)**  
 
 - Divvy_Trips_2019_Q2.zip  
 - Divvy_Trips_2019_Q3.zip  
 - Divvy_Trips_2019_Q4.zip  
 - Divvy_Trips_2020_Q1.zip  
 
- inside this [database](https://divvy-tripdata.s3.amazonaws.com/index.html)**  
-
 ## Process  
 
 ### Guiding questions  
 
-● What tools are you choosing and why?  
+● What tools am I choosing and why?  
 
 I'm choosing to prepare and analyze the data with RStudio, because BigQuery, Google Spreadsheets and Excel cannot load half of the data files due to their size.  
 
-● What steps have you taken to ensure that your data is clean?  
+● What steps have I taken to ensure that the data is clean?  
 
 My whole cleaning process is described in the script.R file step-by-step.
 
-● How can you verify that your data is clean and ready to analyze?
+● How can I verify that the data is clean and ready to analyze?
 
 By inspecting it with common functions:
 
@@ -85,7 +85,7 @@ str                  #See list of columns and data types (numeric, character, et
 summary              #Statistical summary of data. Mainly for numerics  
 
 
-● Have you documented your cleaning process so you can review and share those results?  
+● Have I documented my cleaning process so that I can review and share those results?  
 
 Yes. It's documented as comments in the script file.  
 
@@ -96,76 +96,76 @@ _Deliverable: Documentation of any cleaning or manipulation of data_
 ## Analyze  
 
 ### Guiding questions  
-● How should you organize your data to perform analysis on it?
+● How should I organize the data to perform analysis on it?
 
 All the data tables should be merged into one big data frame and any incosistent data across the tables reformed so that it matches the most recent dataset which is Q1 2020.
 
-● Has your data been properly formatted?
+● Has the data been properly formatted?
 
-Yes. The steps taken can be seen in the script.
+Yes. The step taken to format the data can be found on row 119,120 and 121 in the R script.
 
-● What surprises did you discover in the data?
+● Has any of my hypotheses about the data been contradicted?
 
-I was surprised by the average duration of trip sorted by type of customers.   
+I was surprised by the average duration of trip sorted by type of customers. In the case that my hypotheses have been contradicted I carefully examine all the steps taken again to ensure that no mistakes have been made.  
 
-● What trends or relationships did you find in the data?
+● What trends or relationships did I find in the data?  
 
-Trend Number 1: The number of rides for the annual members throughout the whole year is higher 
+Trend Number 1: The number of rides for the annual members throughout the whole year is higher.  
 
 The visuals to support this trend:
 
 ![num_of_rides_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/num_of_rides_v.png)
 
-Trend Number 2: The average duration of trip time in seconds for casual members is higher
+Trend Number 2: The average duration of trip time in seconds for casual members is higher.  
 
 The visuals to support this trend:
 
 ![avg_trip_time_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/avg_trip_time_v.png)
 
-_Deliverable: A summary of your analysis_
+_Deliverable: A summary of my analysis_
 
 **Annual members ride more often, but for shorter period of time. Conversely casual members ride rarer, but for longer periods of time.**
 
-## Process    
+## Share   
 
 ### Guiding questions  
 
 ● Were you I able to answer the task at hand?  
 
-Yes.
+Yes.  
 
 ● How do your findings relate to your original question?  
 
 With this data, now further analysis can take place where the company can assess the decisions that must be made to increase the annual members.  
 
-● Who is your audience?  
+● Who is the audience which would hear those findings?  
 
 My audience in this case, would be the stakeholders, most likely CMO or CEO of the company.  
 
-● Can data visualization help you share your findings?  
+● Can data visualization help me share the findings?  
 
 Visualizations can help the stakeholders undestand my findings better.  
 
 _Deliverable: Supporting visualizations and key findings through visuals and potentially a presentation_
 
-**The visuals are shared in this read me file**
+**The visuals are shared in this read me file a couple of paragraphs above this line**
 
 ## Act  
 
 ### Guiding questions  
-● What is your final conclusion based on your analysis?
+● What is my final conclusion based on the analysis?
 
 The final conclusion is that annual members use the bikes more often. Additionally, the casual members don't use the bikes as often, but use them for prolonged periods of time.
 
-● How could your team and business apply your insights?
+● How could my team and business apply those insights?
 
 These insights could be taken into account when deciding how to increase the annual members of the company. One way they could be applied is to give casual members a discount for the annual membership if they have more than 1 bike ride per week with longer duration time than a certain threshold that would make sense financially for the company.
 
-● Is there additional data you could use to expand on your findings?
+● Is there additional data I could use to expand on my findings?
 
 I belive that if we had data that showcases how often members and casual riders took bike rides, this would help us further with the business problem.
 
-**Deliverable: Your top three recommendations based on your analysis**  
+**Deliverable: My top three recommendations based on the analysis**  
 
 1. Give casual members that have a bike ride longer than a certain threshold a discount for the annual membership;  
 2. Increase the price for bike rides per minute used;  
