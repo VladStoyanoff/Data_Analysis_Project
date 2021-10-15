@@ -52,7 +52,7 @@ I assume that the data is credible due to it being recommended by Google and pro
 
 _Deliverable: A description of all data sources used  
 
-**The data used can be found in the data folder in this repository**  
+**The data used can be found in this [database](https://divvy-tripdata.s3.amazonaws.com/index.html)**  
 
 ## Process  
 
