@@ -32,18 +32,23 @@ I am assuming there are no credibility or bias issues with the data, due to it b
 ● How are you addressing licensing, privacy, security, and accessibility - The data has been made available by
 Motivate International Inc. [under this license](https://www.divvybikes.com/data-license-agreement)   
 
-● How did you verify the data’s integrity?
+● How did you verify the data’s integrity?  
+
 ● How does it help you answer your question?  
-The dataset is helpful for answering the question because to be able to reach a data-driven decision I would need to know ---
-● Are there any problems with the data?
----
+
+The dataset is helpful for answering the question because to be able to reach a data-driven decision I would need to know ---  
+
+● Are there any problems with the data?  
+
+---  
+
 ● Determine the credibility of the data.  
 
 I assume that the data is credible due to it being recommended by Google and provided by Motivate International Inc. 
 
-_Deliverable: A description of all data sources used
+_Deliverable: A description of all data sources used  
 
-The data used can be found in the data folder in this repository
+The data used can be found in the data folder in this repository  
 
 ## Process  
 
@@ -51,26 +56,26 @@ The data used can be found in the data folder in this repository
 
 ● What tools are you choosing and why?  
 
-I'm choosing to prepare and analyze the data with RStudio, because BigQuery, Google Spreadsheets and Excel cannot load half of the data files due to their size.
+I'm choosing to prepare and analyze the data with RStudio, because BigQuery, Google Spreadsheets and Excel cannot load half of the data files due to their size.  
 
 ● What steps have you taken to ensure that your data is clean?  
 
-My whole cleaning process is descriebd int he script.R file step-by-step
+My whole cleaning process is described in the script.R file step-by-step.
 
 ● How can you verify that your data is clean and ready to analyze?
 
 By inspecting it with common functions:
 
-colnames             #List of column names
-nrow                 #How many rows are in data frame?
-dim                  #Dimensions of the data frame?
-head                 #See the first 6 rows of data frame.  Also tail
-str                  #See list of columns and data types (numeric, character, etc)
-summary              #Statistical summary of data. Mainly for numerics
+colnames             #List of column names  
+nrow                 #How many rows are in data frame?  
+dim                  #Dimensions of the data frame?  
+head                 #See the first 6 rows of data frame.  Also tail  
+str                  #See list of columns and data types (numeric, character, etc)  
+summary              #Statistical summary of data. Mainly for numerics  
 
 
-● Have you documented your cleaning process so you can review and share those results?
+● Have you documented your cleaning process so you can review and share those results?  
 
-Yes. It's documented as comments in the script file.
+Yes. It's documented as comments in the script file.  
 
-_Deliverable: Documentation of any cleaning or manipulation of data_
+_Deliverable: Documentation of any cleaning or manipulation of data_  
