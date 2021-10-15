@@ -1,12 +1,14 @@
 # Data_Analysis_Project
 
+In this read.me file I have layed out my thinking process and methodologies when analyzing big data with R. The guiding questions and deliverables are a standart for any analysis I perform, but the methodologies sometimes differ, respectively to what programming languages and frameworks I use.
+
 ## Ask
 ### Guiding questions
-● What is the problem you are trying to solve?  
+● What is the problem I am trying to solve?  
 
 The amount of annual memberships is too low  
 
-● How can your insights drive business decisions?  
+● How can my insights help with data-driven decision making at the company?  
 
 By reaching a data-driven decision that directly impacts the aforementioned prolem, the company can increase it's annual members  
 
@@ -14,23 +16,25 @@ _Deliverable: A clear statement of the business task_
 
 **How do annual members and casual riders use Cyclistic bikes differently?**  
 
-## Prepare   
-### Guiding questions  
+## Prepare  
 
-● Where is your data located?  
+### Guiding questions   
+
+● Where is my data located?  
 
 The data is located at a [database](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Motivate International Inc. 
 
 ● How is the data organized?  
 
-The data is organized sequentially by date order    
+The data is organized sequentially by date order.   
 
-● Are there issues with bias or credibility in this data? Does your data ROCCC(reliable, original, comprehensive, current, and cited)?  
+● Are there issues with bias or credibility in this data? Is the data ROCCC(reliable, original, comprehensive, current, and cited)?  
 
-I am assuming there are no credibility or bias issues with the data, due to it being directly recommneded by Google. The data seems reliable due to it's organized internal structure, original due to the actual existance of the company Divvy, comprehensive due to it's neat and understandable internal structure, current due to the data being ordered sequentially from years 2004-2020, it is not cited because it's internal rather than external data   
+I am assuming there are no credibility or bias issues with the data, due to it being directly recommended by Google professionals inside the Google Data Analytics Professional Certificate course. The data seems reliable according to it's organized internal structure, original according to the actual existance of the company providing the data, comprehensive because of it's understandable and methodological internal structure, current according to the data being ordered sequentially from years 2004-2020, it is not cited because it's internal rather than external data.   
 
-● How are you addressing licensing, privacy, security, and accessibility - The data has been made available by
-Motivate International Inc. [under this license](https://www.divvybikes.com/data-license-agreement)   
+● How am I addressing licensing, privacy, security, and accessibility?  
+
+The data has been made available by Motivate International Inc. [under this license](https://www.divvybikes.com/data-license-agreement)   
 
 ● How did you verify the data’s integrity?  
 
@@ -48,7 +52,7 @@ I assume that the data is credible due to it being recommended by Google and pro
 
 _Deliverable: A description of all data sources used  
 
-The data used can be found in the data folder in this repository  
+**The data used can be found in the data folder in this repository**  
 
 ## Process  
 
@@ -80,6 +84,7 @@ Yes. It's documented as comments in the script file.
 
 _Deliverable: Documentation of any cleaning or manipulation of data_  
 
+**Documentation can be found insie the script file**
 
 ## Analyze  
 
@@ -110,6 +115,51 @@ The visuals to support this trend:
 
 ![avg_trip_time_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/avg_trip_time_v.png)
 
-Key tasks
-
 _Deliverable: A summary of your analysis_
+
+**Annual members ride more often, but for shorter period of time. Conversely casual members ride rarer, but for longer periods of time.**
+
+## Process    
+
+### Guiding questions  
+
+● Were you I able to answer the task at hand?  
+
+Yes.
+
+● How do your findings relate to your original question?  
+
+With this data, now further analysis can take place where the company can assess the decisions that must be made to increase the annual members.  
+
+● Who is your audience?  
+
+My audience in this case, would be the stakeholders, most likely CMO or CEO of the company.  
+
+● Can data visualization help you share your findings?  
+
+Visualizations can help the stakeholders undestand my findings better.  
+
+_Deliverable: Supporting visualizations and key findings through visuals and potentially a presentation_
+
+**The visuals are shared in this read me file**
+
+## Act  
+
+### Guiding questions  
+● What is your final conclusion based on your analysis?
+
+The final conclusion is that annual members use the bikes more often. Additionally, the casual members don't use the bikes as often, but use them for prolonged periods of time.
+
+● How could your team and business apply your insights?
+
+These insights could be taken into account when deciding how to increase the annual members of the company. One way they could be applied is to give casual members a discount for the annual membership if they have more than 1 bike ride per week with longer duration time than a certain threshold that would make sense financially for the company.
+
+● Is there additional data you could use to expand on your findings?
+
+I belive that if we had data that showcases how often members and casual riders took bike rides, this would help us further with the business problem.
+
+**Deliverable: Your top three recommendations based on your analysis**  
+
+1. Give casual members that have a bike ride longer than a certain threshold a discount for the annual membership;  
+2. Increase the price for bike rides per minute used;  
+3. Develop a ranking system In this ranked system, the winners would be monthly chosen, and they would be declared winners if they pass that threshold of bike usage per month.  
