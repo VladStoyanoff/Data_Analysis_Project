@@ -52,7 +52,14 @@ I assume that the data is credible due to it being recommended by Google and pro
 
 _Deliverable: A description of all data sources used  
 
-**The data used can be found in this [database](https://divvy-tripdata.s3.amazonaws.com/index.html)**  
+**The data used is contained in the following zip files:  
+
+- Divvy_Trips_2019_Q2.zip  
+- Divvy_Trips_2019_Q3.zip  
+- Divvy_Trips_2019_Q4.zip  
+- Divvy_Trips_2020_Q1.zip  
+
+ inside this [database](https://divvy-tripdata.s3.amazonaws.com/index.html)**  
 
 ## Process  
 
