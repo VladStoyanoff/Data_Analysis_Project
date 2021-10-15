@@ -79,3 +79,37 @@ summary              #Statistical summary of data. Mainly for numerics
 Yes. It's documented as comments in the script file.  
 
 _Deliverable: Documentation of any cleaning or manipulation of data_  
+
+
+## Analyze  
+
+### Guiding questions  
+● How should you organize your data to perform analysis on it?
+
+All the data tables should be merged into one big data frame and any incosistent data across the tables reformed so that it matches the most recent dataset which is Q1 2020.
+
+● Has your data been properly formatted?
+
+Yes. The steps taken can be seen in the script.
+
+● What surprises did you discover in the data?
+
+I was surprised by the average duration of trip sorted by type of customers.   
+
+● What trends or relationships did you find in the data?
+
+Trend Number 1: The number of rides for the annual members throughout the whole year is higher 
+
+The visuals to support this trend:
+
+![num_of_rides_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/num_of_rides_v.png)
+
+Trend Number 2: The average duration of trip time in seconds for casual members is higher
+
+The visuals to support this trend:
+
+![avg_trip_time_v](https://github.com/VladStoyanoff/Data_Analysis_Project/blob/main/Screenshots/avg_trip_time_v.png)
+
+Key tasks
+
+_Deliverable: A summary of your analysis_
