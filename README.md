@@ -1,4 +1,4 @@
-# Data_Analysis_Project
+# Data_Analysis_Capstone_Project
 
 In this read.me file I have layed out my thinking process and methodologies when analyzing big data with R. The guiding questions and deliverables are a standart for any analysis I perform, but the methodologies sometimes differ, respectively to what programming languages and frameworks I use.
 
