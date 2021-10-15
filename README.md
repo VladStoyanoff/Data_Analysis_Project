@@ -41,20 +41,36 @@ The dataset is helpful for answering the question because to be able to reach a 
 
 I assume that the data is credible due to it being recommended by Google and provided by Motivate International Inc. 
 
-_Deliverable: A description of all data sources used_
+_Deliverable: A description of all data sources used
 
 The data used can be found in the data folder in this repository
 
-## Process
-### Guiding questions
-● What tools are you choosing and why?
-● What steps have you taken to ensure that your data is clean?
+## Process  
+
+### Guiding questions  
+
+● What tools are you choosing and why?  
+
+I'm choosing to prepare and analyze the data with RStudio, because BigQuery, Google Spreadsheets and Excel cannot load half of the data files due to their size.
+
+● What steps have you taken to ensure that your data is clean?  
+
+My whole cleaning process is descriebd int he script.R file step-by-step
+
 ● How can you verify that your data is clean and ready to analyze?
+
+By inspecting it with common functions:
+
+colnames             #List of column names
+nrow                 #How many rows are in data frame?
+dim                  #Dimensions of the data frame?
+head                 #See the first 6 rows of data frame.  Also tail
+str                  #See list of columns and data types (numeric, character, etc)
+summary              #Statistical summary of data. Mainly for numerics
+
+
 ● Have you documented your cleaning process so you can review and share those results?
-Key tasks
-1. Check the data for errors.
-2. Choose your tools.
-3. Transform the data so you can work with it effectively.
-4. Document the cleaning process.
-Deliverable
-Documentation of any cleaning or manipulation of data
+
+Yes. It's documented as comments in the script file.
+
+_Deliverable: Documentation of any cleaning or manipulation of data_
