@@ -6,7 +6,7 @@ In this read.me file I have layed out my thinking process and methodologies when
 ### Guiding questions
 ● What is the problem I am trying to solve?  
 
-The amount of annual memberships is too low  
+Low annual memberships  
 
 ● How can my insights help with data-driven decision making at the company?  
 
