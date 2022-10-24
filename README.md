@@ -12,8 +12,6 @@ Low annual memberships
 
 By reaching a data-driven decision that directly impacts the aforementioned prolem, the company can increase it's annual members  
 
-_Deliverable: A clear statement of the business task_
-
 **How do annual members and casual riders use Cyclistic bikes differently?**  
 
 ## Prepare  
